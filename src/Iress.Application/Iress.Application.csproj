@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iress.Domain\Iress.Domain.csproj" />
+    <ProjectReference Include="..\Iress.Infrastrcuture\Iress.Infrastrcuture.csproj" />
+  </ItemGroup>
+
+</Project>

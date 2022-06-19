@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Iress.Client</AssemblyName>
+    <RootNamespace>Iress.Client</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iress.Application\Iress.Application.csproj" />
+    <ProjectReference Include="..\Iress.Domain\Iress.Domain.csproj" />
+    <ProjectReference Include="..\Iress.Infrastrcuture\Iress.Infrastrcuture.csproj" />
+  </ItemGroup>
+
+</Project>
