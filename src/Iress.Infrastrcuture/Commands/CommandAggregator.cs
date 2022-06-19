@@ -15,7 +15,7 @@ namespace Iress.Infrastrcuture.Commands
         private IEnumerable<Type> _commandHandlers;
 
         /// <summary>
-        /// Find and cache all instances of ICommandHandler<,> from the assembly
+        /// Find and cache types of ICommandHandler<,> from the assembly
         /// </summary>
         /// <param name="assembly"></param>
         public void Initialize(Assembly assembly)
@@ -31,7 +31,7 @@ namespace Iress.Infrastrcuture.Commands
         }
 
         /// <summary>
-        /// Invoke command handler for the given command
+        /// Invoke command handler for the command
         /// </summary>
         /// <param name="command"></param>
         public void Invoke(ICommand command)

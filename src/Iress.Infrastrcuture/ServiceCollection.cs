@@ -22,7 +22,7 @@ namespace Iress.Infrastrcuture
         }
 
         /// <summary>
-        /// Resolve a derived type based on the base type
+        /// Resolve a derived type from a base type
         /// </summary>
         /// <typeparam name="T">Base type</typeparam>
         /// <returns></returns>
@@ -38,7 +38,7 @@ namespace Iress.Infrastrcuture
         }
 
         /// <summary>
-        /// Resolve a derived type based on the base type
+        /// Resolve a derived type from a base type
         /// </summary>
         /// <param name="type">Base type</param>
         /// <returns></returns>
